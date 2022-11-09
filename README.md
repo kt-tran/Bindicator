@@ -126,7 +126,7 @@ in the cron table using:
 ## Acknowledgments
 
 * Idea: [Darren Tarbard](https://hackaday.com/2020/01/23/bindaycator-lets-you-know-when-to-take-out-the-trash/#:~:text=Having%20four%20LEDs%20both%20helps,segments%20in%20red%20and%20blue)
-* Contributor: [Jamie Gee](https://https://github.com/gouu1)
+* Contributor: [Jamie Gee](https://github.com/gouu1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
