@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot][product-screenshot]
+<img src="img/final.jpg" width="200" height="100">
 
 Inspired by a picture of Darren Tarbard's Bin Day Cator, I decided to create one of my own after finding a mini plastic bin for $5 at the store.
 
@@ -122,7 +122,6 @@ in the cron table using:
 [contributors-shield]: https://img.shields.io/badge/Contributors-Katie,%20Jamie-blueviolet
 [year-shield]: https://img.shields.io/badge/Year-2022-blue
 [python-shield]: https://img.shields.io/badge/Python-brightgreen
-[product-screenshot]: img/final.jpg
 [bin-price]: img/bin_purchase.jpg
 [wiring-pic]: img/wiring.jpg
 [LED-wire]: img/wires_finished.jpg
