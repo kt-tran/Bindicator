@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="img/final.jpg" width="200" height="100">
+<img src="img/final.jpg" width="200" height="100" style:"object-fit:contain;">
 
 Inspired by a picture of Darren Tarbard's Bin Day Cator, I decided to create one of my own after finding a mini plastic bin for $5 at the store.
 
