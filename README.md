@@ -65,69 +65,53 @@
 ![Product Name Screen Shot][product-screenshot]
 
 Inspired by a picture of Darren Tarbard's Bin Day Cator, I decided to create one of my own after finding a mini plastic bin for $5 at the store.
+
 ![Bin][bin-price]
 
+This is my first electronics-type project so I decided not to overcomplicate it. We already have a Pi-hole set up and running at home so I thought to just run the bin program on the same Raspberry Pi as well. You could probably set this up on an Ardunio (which is much cheaper) too, somehow. A good idea could be to set up smart home LED lights to turn corresponding colours on bin day as well if you already have that set up.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ROADMAP -->
+## Roadmap
 
+### Wiring
+![First Attempt][wiring-pic]
+My first attempt at preparing wires for soldering.
+
+![LED][LED-wire]
+After soldering and covering with heatshrink.
+I followed this tutorial: [here][led-tutorial]
+
+### Connecting to the Pi
+![Inside the Pi][pi-pins]
+Hard to see, so the diagram is probably better:
+![Pi GP-I/O][pi-diagram]
+
+![Finished Pi Case][pi-case]
+Unfortunately the case no longer fits over the top.
+
+### Inside the bin
+![Plush Seat][inside-bin]
+I gave my sister my hot glue gun but a little bit of sticky tape was enough to fix the plush in place.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Cron -->
 ## Using Cron
 
-Cron is an in-built Linux utility that allows you to schedule jobs to run periodically. Cron is used to run the python file on bin day each week.
-See: https://crontab.guru/
+Cron is an in-built Linux utility that allows you to schedule jobs to run periodically. <br> 
+Cron is used to run the python file on bin day each week. See: https://crontab.guru/
 
 Store this:
   ```sh
   0 0 * * 2 /usr/bin/python /home/pi/Documents/ledSimple.py
   ```
 
-in the crobtab (cron table) using:
+in the cron table using:
   ```sh
   crontab -e
   ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/kt_tran/Bindicator.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/kt_tran/Bindicator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,3 +133,10 @@ See the [open issues](https://github.com/kt_tran/Bindicator/issues) for a full l
 [python-shield]: https://img.shields.io/badge/Python-brightgreen
 [product-screenshot]: img/final.jpg
 [bin-price]: img/bin_purchase.jpg
+[wiring-pic]: img/wiring.jpg
+[LED-wire]: img/wires_finished.jpg
+[led-tutorial]: https://www.youtube.com/watch?v=cxWP9dLhHhM&ab_channel=CreativeJunior
+[inside-bin]: img/inside_bin.jpg
+[pi-case]: /img/pi_case.jpg
+[pi-pins]: /img/pi-pins.jpg
+[pi-diagram]: img/GPIO.png
