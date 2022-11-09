@@ -57,7 +57,9 @@ Inspired by a picture of Darren Tarbard's Bin Day Cator, I decided to create one
 
 ![Bin][bin-price]
 
-This is my first electronics-type project so I decided not to overcomplicate it. We already have a Pi-hole set up and running at home so I thought to just run the bin program on the same Raspberry Pi as well. You could probably set this up on an Ardunio (which is much cheaper) too, somehow. A good idea could be to set up smart home LED lights to turn corresponding colours on bin day as well if you already have that set up.
+This is my first electronics-type project so I decided not to overcomplicate it. <br>
+We already have a Pi-hole set up and running at home so I thought to just run the bin program on the same Raspberry Pi as well. <br>
+You could probably set this up on an Ardunio (which is much cheaper) too, somehow. A good idea could be to set up smart home LED lights to turn corresponding colours on bin day as well if you already have that set up.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
