@@ -50,12 +50,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-<img src="img/final.jpg" width="300" height="400" >
+<div align="center">
+    <img src="img/final.jpg" width="300" height="400" >
+</div>
 
 Inspired by a picture of Darren Tarbard's Bin Day Cator, I decided to create one of my own after finding a mini plastic bin for $5 at the store.
 
-![Bin][bin-price]
+<div align="center">
+    <img src="img/bin_purchase.jpg" width="300" height="400" >
+</div>
 
 This is my first electronics-type project so I decided not to overcomplicate it. <br>
 We already have a Pi-hole set up and running at home so I thought to just run the bin program on the same Raspberry Pi as well. <br>
@@ -75,15 +78,22 @@ After soldering and covering with heatshrink.
 I followed this tutorial: [here][led-tutorial]
 
 ### Connecting to the Pi
-![Inside the Pi][pi-pins]
-Hard to see, so the diagram is probably better:
+<div align="center">
+    <img src="img/pi-pins.jpg" width="300" height="400" >
+</div>
+
+<br>Hard to see, so the diagram is probably better:
 ![Pi GP-I/O][pi-diagram]
 
-![Finished Pi Case][pi-case]
+<div align="center">
+    <img src="img/pi_case.jpg" width="300" height="400" >
+</div>
 Unfortunately the case no longer fits over the top.
 
 ### Inside the bin
-![Plush Seat][inside-bin]
+<div align="center">
+    <img src="img/inside_bin.jpg" width="300" height="400" >
+</div>
 I gave my sister my hot glue gun but a little bit of sticky tape was enough to fix the plush in place.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -122,11 +132,7 @@ in the cron table using:
 [contributors-shield]: https://img.shields.io/badge/Contributors-Katie,%20Jamie-blueviolet
 [year-shield]: https://img.shields.io/badge/Year-2022-blue
 [python-shield]: https://img.shields.io/badge/Python-brightgreen
-[bin-price]: img/bin_purchase.jpg
 [wiring-pic]: img/wiring.jpg
 [LED-wire]: img/wires_finished.jpg
 [led-tutorial]: https://www.youtube.com/watch?v=cxWP9dLhHhM&ab_channel=CreativeJunior
-[inside-bin]: img/inside_bin.jpg
-[pi-case]: /img/pi_case.jpg
-[pi-pins]: /img/pi-pins.jpg
 [pi-diagram]: img/GPIO.png
