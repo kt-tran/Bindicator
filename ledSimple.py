@@ -22,11 +22,11 @@ try:
         if (CurrentWeek % 2 == 0): #recycle & normal bin when the week of the year is even
             GPIO.output(26, True)
             GPIO.output(16, True)
-            time.sleep(30)
+            time.sleep(DAY)
 
         else: #normal bin only when the week of the year is odd
             GPIO.output(16, True)
-            time.sleep(30)
+            time.sleep(DAY)
 
         GPIO.output(26, False)
         GPIO.output(16, False)

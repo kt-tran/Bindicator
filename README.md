@@ -54,6 +54,11 @@
     <img src="img/final.jpg" width="300" height="400" >
 </div>
 
+<div align="center">
+    <img src="img/green.jpg" width="300" height="400" >
+    <img src="img/both.jpg" width="300" height="400" >
+</div>
+
 Inspired by a picture of Darren Tarbard's Bin Day Cator, I decided to create one of my own after finding a mini plastic bin for $5 at the store.
 
 <div align="center">
