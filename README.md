@@ -23,7 +23,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/kt-tran/Bindicator">
-    <img src="img/recycle-bin.png" alt="Recycling bin" width="150" height="150">
+    <img src="img/recycle-bin.png" alt="Recycling bin" width="80" height="80">
   </a>
 
 <h3 align="center">Bindicator</h3>
